@@ -12,9 +12,10 @@ public class SampleServiceImpl extends SampleServiceImplBase {
     public SampleServiceImpl() {
     }
 
+    //sample create method
     public Sample create(Sample sample) {
 
-       return getSampleRepository().save(sample);
+       return getSampleRepository().save(sample) ;
 
 
     }
